@@ -84,6 +84,7 @@ h2 {
 h3 {
     color:#1b7baf;
     text-align:center;
+    padding-bottom: 10px;;
 }
 em {
     color:#1b7baf;
@@ -124,7 +125,7 @@ em {
     height:55px;
     border-radius:10px;
     margin:5px;
-    background-color:grey;
+    background-color:#22427c;
 }
 
 .presentation{
@@ -152,7 +153,7 @@ em {
     height:200px;
     border-radius:15px;
     margin:5px;
-    padding:10px;
+    padding:0 10px 20px 10px;
     background-color:#1b7baf;
     display:flex;
     flex-flow: column nowrap;
