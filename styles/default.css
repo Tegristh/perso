@@ -2,41 +2,91 @@ body {
     background-color: #191919;
     display:flex;
     justify-content: center;
+    font-family: sans-serif;
+    color: white;
 }
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
 .big-container {
     background-color: #212121;
     margin-top: 0px;
-   width: 1000px;
+   width: 1200px;
 }
 .border-bot {
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color:black;
 }
-a:link {
+.border {
+    margin: 20px 0 0 0;
+    border: 1px #22427c solid;
+    border-radius: 50px ;
+    padding-bottom: 20px;
+    margin: 15px;
+}
+.bck-darker {
+    border-radius: 0 5px 0 5px;
+    border: 1px solid white;
+    padding:5px;
+    background-color: #22427c;
+}
+.bouton {
+    border:1px solid white;
+    background-color:white;
+    border-radius: 5px;
+    padding:8px;
+    font-weight: bolder;
+    
+}
+#nasa figure{
+    margin:0;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    
+}
+#nasa figcaption{
+    padding-left: 50px;
+    padding-right: 20px;
+}
+#nasa p{
+    padding-top: 20px;
+}
+.cropped {
+    border-radius: 50px;
+    max-width:50vw;
+    max-height: 40vh;
+    padding: 10px;
+    object-fit: scale-down;
+}
+a:link, a:visited {
     text-decoration: none;
     color:#191919;
 }
 a:hover {
-    color:#22427c;
+    color:#1b7baf;
 }
-a:visited {
-    color:#22427c;
-}
+ 
 h1 {
-    color:#22427c;
+    color:#1b7baf;
 }
 h2 {
-    color:#22427c;
-    margin: 30px 0 0 0 ;
-    padding:20px 20px 0 20px;
+    color:#1b7baf;
+    margin: 0 0 0 0 ;
+    padding:0 20px 0 20px;
 }
 h3 {
-    color:#22427c;
+    color:#1b7baf;
     text-align:center;
 }
 em {
-    color:#22427c;
+    color:#1b7baf;
     font-weight: bold;
     font-style:normal;
 }
@@ -76,14 +126,8 @@ em {
     margin:5px;
     background-color:grey;
 }
-.navbar-top{
-   
-}
-.navbar-bottom{
-    
-}
+
 .presentation{
-   height:40vh;
    padding:20px 20px 60px 20px;
    color:white;
    
@@ -99,7 +143,7 @@ em {
 .salute{
     font-size:30px;
 }
-.Portfolio{
+.portfolio, .diplomes{
     
     padding:20px;
 }
@@ -108,7 +152,12 @@ em {
     height:200px;
     border-radius:15px;
     margin:5px;
-    background-color: #191919;
+    padding:10px;
+    background-color:#1b7baf;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
 }
 table {
     text-align: center;
@@ -123,4 +172,12 @@ table th{
 table td{
     padding:10px;
     border: 1px solid black;
+}
+.textearea{
+    width:100%;
+}
+.parent{
+    display:flex;
+    flex-flow: column wrap;
+    align-items:center;
 }

@@ -8,6 +8,6 @@ var date = d.getDate()+' '+(tabMonth[d.getMonth()]) +' '+d.getFullYear();
   
 var fullDate = hours +` |  Le `+ date;
 boite.textContent = fullDate;
-console.log(fullDate);
+
 }
 setInterval("horloge()",1000)
